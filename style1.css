@@ -1,0 +1,53 @@
+.place-card-container{
+display: flex;
+justify-content: center;
+padding-left: 50px;
+}
+.place-card{
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.place-card:hover{
+    transform: scale(1.1);
+}
+ .place-card>.header-img img{
+     max-width: 100%;
+     border-top-left-radius: 20px;
+     /* border-top-right-radius: 5px; */
+
+}
+.place-meta{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border-bottom-left-radius:5px ; */
+border-bottom-right-radius: 20px;
+}
+.meta-info{
+    color: rgb(12, 12, 85);
+    font-size:20px;
+    margin-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.place-title{
+   color: darkslategrey;
+   font-size:17px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.meta-price{
+    color: darkslategrey;
+   font-size:15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.meta-rating{
+    color: darkslategrey;
+   font-size:12px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.tiny{
+    font-size: 12px;
+}
